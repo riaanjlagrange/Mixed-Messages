@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "returns random voice lines from valorant agents",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Riaan la Grange",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  }
 }
