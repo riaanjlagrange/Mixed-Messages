@@ -10,6 +10,6 @@
 
 This program allows you to type a Valorant Agent into the console _(from the given list)_ and randomly prints one its five voice lines.
 
-## Purpouse
+## Purpose
 
 Practice JavaScript syntax, working with objects and using JSON files.
