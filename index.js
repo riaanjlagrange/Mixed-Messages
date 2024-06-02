@@ -22,7 +22,7 @@ const getRandomVoiceline = (choice) => {
 // UI Boilerplate
 console.log('\n\n\nWelcome to Valorant Mixed Messages!\n');
 console.log('Please Choose an Agent from the following:');
-console.log('\n1. Raze\n2. Reyna\n3. Sage\n4. Iso\n5. Sova\n');
+console.log('\nRaze\nReyna\nSage\nIso\nSova\n');
 
 // Function to convert strings to title case
 const convertToTitleCase = (str) => {
@@ -45,7 +45,7 @@ inquirer
     {
       type: 'input',
       name: 'agent',
-      message: 'Which Agent would you like to choose?',
+      message: 'Which Agent would you like to choose? (type the name)',
     },
   ])
   .then((answer) => {
