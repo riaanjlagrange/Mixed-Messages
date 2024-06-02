@@ -12,9 +12,11 @@ const getRandomVoiceline = (choice) => {
     console.log('Invalid choice!');
   }
   // Return a random voice line from the agent you chose
-  return chosenAgent.voiceLines[
-    Math.floor(Math.random() * chosenAgent.voiceLines.length)
-  ];
+  const chosenVoiceLine =
+    chosenAgent.voiceLines[
+      Math.floor(Math.random() * chosenAgent.voiceLines.length)
+    ];
+  return [chosenVoiceLine, chosenAgent.type];
 };
 
 // UI Boilerplate
@@ -48,7 +50,11 @@ inquirer
   ])
   .then((answer) => {
     // Convert the user's input to title case
-    const voiceLine = getRandomVoiceline(answer.agent.toLowerCase());
+    const [voiceLine, type] = getRandomVoiceline(answer.agent.toLowerCase());
     // Display the chosen agent and their voice line
-    console.log(`\n${convertToTitleCase(answer.agent)}: "${voiceLine}"`);
+    console.log(
+      `\n${convertToTitleCase(answer.agent)} (${convertToTitleCase(
+        type
+      )}): "${voiceLine}"`
+    );
   });
