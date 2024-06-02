@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Raze",
+    "type": "Duelist",
+    "voiceLines": [
+      "Yes! I'm pumped!",
+      "Ah! Look at this wreckage! I'm so proud.",
+      "There we go! Nice work everyone!",
+      "Ah. Smells like victory. And gunpowder.",
+      "Come back with a bigger gun."
+    ]
+  },
+  {
+    "name": "Reyna",
+    "type": "Duelist",
+    "voiceLines": [
+      "They have no idea how heartless I am.",
+      "I've stood over so many corpses. A few more does not matter.",
+      "They stopped breathing? Excellent. Then we're done.",
+      "Someone else will cleanup. I don't take out the trash.",
+      "If I act superior, it's because I am."
+    ]
+  },
+  {
+    "name": "Sage",
+    "type": "Sentinel",
+    "voiceLines": [
+      "I am both shield and sword.",
+      "I will soothe this turmoil, with fire if I must.",
+      "This place, I can feel its pain, it aches for redemption.",
+      "Now to mend what we have broken.",
+      "Even death cannot stop me."
+    ]
+  },
+  {
+    "name": "Sova",
+    "type": "Initiator",
+    "voiceLines": [
+      "Wherever they run, I will find them.",
+      "You'll have your intel, I promise.",
+      "The cold air feels wonderful.",
+      "Good thing I was with you, yes?",
+      "Today is not our day to die."
+    ]
+  },
+  {
+    "name": "Iso",
+    "type": "Duelist",
+    "voiceLines": [
+      "Enough training, it's time.",
+      "Once we find the right rhythm, it's over.",
+      "So? Who has to die?",
+      "I have a time for a selfie before we leave, right? I'll be fast.",
+      "Anyone attacking us can answer to me."
+    ]
+  }
+]
